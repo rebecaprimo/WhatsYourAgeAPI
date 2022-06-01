@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: #55f683;
+}
+
+.row{
+    height: max-content;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+#header{
+    margin-top: 60px;
+    font-size: 7rem;
+    color: #000000;
+    z-index: 1;
+    text-align: center;
+}
+
+#instruction{
+    margin-top: 20%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#box{
+    display: grid;
+}
+
+input[type=text]{
+    height: 2.8rem;
+    margin-top: 4%;
+    font-size: 2rem;
+}
+
+button{
+    height: 2.8rem;
+    border-radius: 2rem;
+    background: rgb(242,79,241);
+    background: linear-gradient(45deg, rgba(242,79,241,1) 0%, rgba(0,237,255,1) 70%);
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+button p{
+    font-size: 2rem;
+}
+
+#output{
+    display: none;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.img {
+    margin-top: 60px;
+    max-width: 250px;
+}
